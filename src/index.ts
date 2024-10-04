@@ -2,7 +2,6 @@ import express from "express";
 import dotenv from "dotenv";
 import errorMiddleware from "./middlewares/Error";
 import productRoutes from "./routes";
-import sequelize from "./config/db";
 dotenv.config();
 
 const app = express();
